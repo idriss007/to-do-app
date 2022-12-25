@@ -1,0 +1,13 @@
+.todo {
+    background-color: rgb(125,164,83);
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.pressed {
+    background-color: rgb(55,71,79);
+    text-decoration: line-through;
+    color: rgb(128,128,128);
+}

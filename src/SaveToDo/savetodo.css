@@ -1,0 +1,47 @@
+.save-to-do {
+    background-color: rgb(55,71,79);
+    border-radius: 8px;
+    flex-basis: 80px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 15px 0;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#task-input {
+    margin: 5px;
+    width: 365px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid gray;
+    padding: 4px;
+    color: white;
+}
+
+#task-input:focus {
+    outline: none;
+}
+
+.add-task-button {
+    margin: 5px;
+    background-color: gray;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 350px;
+    height: 32px;
+    color: white;
+}
+
+.active-button {
+    background-color: orange;
+}
